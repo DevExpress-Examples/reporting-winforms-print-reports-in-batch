@@ -11,7 +11,7 @@ In this example, reports are printed in a single batch instead of sending one re
 
 ## Implementation Details 
 
-Use the [PrintTool.Printdialog](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPrinting.PrintTool.PrintDialog.overloads) method to print reports. 
+Use the [PrintTool.PrintDialog](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPrinting.PrintTool.PrintDialog.overloads) method to print reports. 
 Handle the [StartPrint](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.PrintingSystemBase.StartPrint) event to specify print settings.
 
 ```cs
@@ -84,5 +84,6 @@ private void reportsStartPrintEventHandler(object sender, PrintDocumentEventArgs
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
 
 
