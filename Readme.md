@@ -7,6 +7,8 @@
 
 In this example, reports are printed in a single batch instead of sending one report at a time to the printer. The Print dialog appears only for the first report; the other reports are printed without prompting with the same printer settings.
 
+[Print dialog](/images/print.png)
+
 ## Implementation Details 
 
 Use the [PrintTool.Printdialog](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPrinting.PrintTool.PrintDialog.overloads) method to print reports. 
