@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Reporting for WinForms - Print Multiple Reports in a Batch
 
-In this example, reports are printed in a single batch instead of sending one report at a time to the printer. The Print dialog appears only for the first report; the other reports are printed without prompting, using the same printer settings.
+In this example, reports are printed in a single batch instead of sending one report at a time to the printer. The Print dialog appears only for the first report; the other reports are printed without prompting with the same printer settings.
 
 ## Implementation Details 
 
@@ -82,3 +82,4 @@ private void reportsStartPrintEventHandler(object sender, PrintDocumentEventArgs
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
