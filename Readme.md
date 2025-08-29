@@ -7,7 +7,7 @@
 
 In this example, reports are printed in a single batch instead of sending one report at a time to the printer. The Print dialog appears only for the first report; the other reports are printed without prompting with the same printer settings.
 
-[Print dialog](/images/print.png)
+![Print dialog](/images/print.png)
 
 ## Implementation Details 
 
@@ -84,4 +84,5 @@ private void reportsStartPrintEventHandler(object sender, PrintDocumentEventArgs
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
 
