@@ -11,8 +11,9 @@ In this example, reports are printed in a single batch instead of sending one re
 
 ## Implementation Details 
 
-Use the [PrintTool.PrintDialog](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPrinting.PrintTool.PrintDialog.overloads) method to print reports. 
-Handle the [StartPrint](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.PrintingSystemBase.StartPrint) event to specify print settings.
+* Use the [PrintTool.PrintDialog](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPrinting.PrintTool.PrintDialog.overloads) method for the first report to display the Print dialog and specify print settings. 
+* Handle the [StartPrint](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.PrintingSystemBase.StartPrint) event to capture these settings and apply them to each report before printing. 
+* Call the [Print](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.PrintToolBase.Print.overloads) method to print subsequent reports with the same printer settings, without prompting the user again.
 
 ```cs
 // Stores the printer settings selected by the user in the print dialog.
